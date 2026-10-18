@@ -21,7 +21,7 @@ const saleSchema = new mongoose.Schema({
         required: true,
         min: 0,
     },
-    status: {
+        status: {
         type: String,
         enum: ["completed", "cancelled"],
         default: "completed",
