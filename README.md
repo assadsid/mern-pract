@@ -45,11 +45,11 @@ Installation
 
 1. Clone the repository
 
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/assadsid/mern-pract.git
 
 2. Navigate to the project folder
 
-cd YOUR_PROJECT_FOLDER
+cd mern-pract
 
 3. Install dependencies
 
@@ -59,18 +59,11 @@ npm install
 
 Create a ".env" file in the project root:
 
-PORT=3000
 MONGO_URI=your_mongodb_connection_string
 
 Replace the example MongoDB value with your own connection string. Never commit your real ".env" file or database credentials to GitHub.
 
 5. Start the development server
-
-If your project has a "dev" script in "package.json":
-
-npm run dev
-
-Alternatively, if Nodemon is installed:
 
 npx nodemon server.js
 
